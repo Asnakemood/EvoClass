@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="18" stdDeviation="30" flood-color="#0F172A" flood-opacity=".18"/></filter>
+  <filter id="shadowSmall" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#0F172A" flood-opacity=".16"/></filter>
+  <filter id="blur"><feGaussianBlur stdDeviation="42"/></filter>
+  <linearGradient id="wallpaper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#DBEAFE"/><stop offset=".52" stop-color="#F8FAFC"/><stop offset="1" stop-color="#D1FAE5"/></linearGradient>
+  <linearGradient id="blueSoft" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EFF6FF"/><stop offset="1" stop-color="#DBEAFE"/></linearGradient>
+  <style>
+    text { font-family: 'Segoe UI Variable','Microsoft YaHei UI','Segoe UI',sans-serif; fill: #172033; }
+    .muted { fill:#64748B; } .subtle { fill:#94A3B8; } .white { fill:#FFFFFF; }
+    .h1 { font-size:30px; font-weight:650; } .h2 { font-size:22px; font-weight:650; }
+    .body { font-size:15px; } .small { font-size:13px; } .label { font-size:12px; font-weight:600; letter-spacing:.7px; }
+    .mono { font-family:'Cascadia Mono','Microsoft YaHei UI',monospace; }
+  </style>
+  
+</defs>
+
+<rect width="1600" height="900" fill="url(#wallpaper)"/>
+<g filter="url(#blur)" opacity=".52"><circle cx="1280" cy="160" r="190" fill="#93C5FD"/><circle cx="1020" cy="720" r="250" fill="#A7F3D0"/><circle cx="280" cy="780" r="160" fill="#C4B5FD"/></g>
+<path d="M0 760 C360 650 600 860 900 740s470-70 700-190V900H0z" fill="#FFFFFF" opacity=".35"/>
+<text x="1120" y="166" font-size="64" font-weight="220" fill="#334155" opacity=".56">08:32</text><text x="1124" y="200" font-size="18" fill="#475569" opacity=".68">8月9日  星期日</text>
+
+<!-- quick panel -->
+<g filter="url(#shadow)"><rect x="112" y="158" width="378" height="564" rx="16" fill="#FFFFFF" fill-opacity=".93" stroke="#FFFFFF"/></g>
+<text x="144" y="207" class="h2">快捷操作</text><text x="144" y="236" class="small muted">七年级 2 班 · 当前为第一节课</text>
+<circle cx="443" cy="204" r="18" fill="#F1F5F9"/><g transform="translate(433,194) scale(0.8333333333333334)" fill="none" stroke="#64748B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:#64748B"><path d="M5 5l14 14M19 5 5 19"/></g>
+<line x1="136" y1="258" x2="466" y2="258" stroke="#E2E8F0"/>
+<circle cx="168" cy="301" r="19" fill="#0D9488" opacity=".11"/><g transform="translate(156,289) scale(1.0)" fill="none" stroke="#0D9488" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:#0D9488"><path d="M6 4h12v17H6zM9 4V2h6v2M9 9h6M9 13h6M9 17h4"/></g><text x="204" y="306" font-size="16" font-weight="540">显示今日值日</text><text x="442" y="306" class="small muted" text-anchor="end">Ctrl + Alt + D</text><rect x="136" y="340" width="330" height="66" rx="8" fill="#EEF2FF"/><circle cx="168" cy="373" r="19" fill="#7C3AED" opacity=".11"/><g transform="translate(156,361) scale(1.0)" fill="none" stroke="#7C3AED" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:#7C3AED"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8" cy="8" r="1" fill="currentColor"/><circle cx="16" cy="8" r="1" fill="currentColor"/><circle cx="12" cy="12" r="1" fill="currentColor"/><circle cx="8" cy="16" r="1" fill="currentColor"/><circle cx="16" cy="16" r="1" fill="currentColor"/></g><text x="204" y="378" font-size="16" font-weight="650">随机抽人</text><text x="442" y="378" class="small muted" text-anchor="end">Ctrl + Alt + R</text><circle cx="168" cy="445" r="19" fill="#2563EB" opacity=".11"/><g transform="translate(156,433) scale(1.0)" fill="none" stroke="#2563EB" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:#2563EB"><rect x="3" y="5" width="18" height="16" rx="2"/><path d="M7 3v4M17 3v4M3 10h18"/></g><text x="204" y="450" font-size="16" font-weight="540">当前课程与课表</text><text x="442" y="450" class="small muted" text-anchor="end">Ctrl + Alt + C</text><circle cx="168" cy="517" r="19" fill="#DC2626" opacity=".11"/><g transform="translate(156,505) scale(1.0)" fill="none" stroke="#DC2626" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:#DC2626"><path d="M12 3 20 6v5c0 5.2-3.2 8.7-8 10-4.8-1.3-8-4.8-8-10V6z"/><path d="m8.5 12 2.2 2.2 4.8-5"/></g><text x="204" y="522" font-size="16" font-weight="540">救援中心</text><text x="442" y="522" class="small muted" text-anchor="end">Ctrl + Alt + Q</text><circle cx="168" cy="589" r="19" fill="#64748B" opacity=".11"/><g transform="translate(156,577) scale(1.0)" fill="none" stroke="#64748B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:#64748B"><circle cx="12" cy="12" r="3"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9 7 7M17 17l2.1 2.1M19.1 4.9 17 7M7 17l-2.1 2.1"/></g><text x="204" y="594" font-size="16" font-weight="540">打开管理窗口</text>
+<line x1="136" y1="646" x2="466" y2="646" stroke="#E2E8F0"/>
+<circle cx="151" cy="679" r="5" fill="#10B981"/><text x="166" y="684" class="small muted">常驻中 · 自动隐藏已开启</text><text x="454" y="684" class="small" fill="#2563EB" text-anchor="end">固定面板</text>
+
+<!-- floating entry -->
+<g filter="url(#shadowSmall)"><rect x="12" y="382" width="68" height="136" rx="24" fill="#172033" fill-opacity=".90"/></g>
+<circle cx="46" cy="421" r="20" fill="#2563EB"/><path d="m39 421 7-10 7 10-7 10z" fill="#fff"/>
+<line x1="28" y1="458" x2="64" y2="458" stroke="#475569"/>
+<g transform="translate(34,476) scale(1.0)" fill="none" stroke="#FFFFFF" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:#FFFFFF"><rect x="3" y="3" width="18" height="18" rx="4"/><circle cx="8" cy="8" r="1" fill="currentColor"/><circle cx="16" cy="8" r="1" fill="currentColor"/><circle cx="12" cy="12" r="1" fill="currentColor"/><circle cx="8" cy="16" r="1" fill="currentColor"/><circle cx="16" cy="16" r="1" fill="currentColor"/></g>
+<text x="512" y="420" font-size="13" fill="#334155" opacity=".70">悬浮入口展开后，菜单保持在触发侧并避开屏幕边缘</text>
+<path d="M498 428H420" stroke="#334155" stroke-opacity=".35" stroke-dasharray="5 5"/>
+
+<!-- quiet class status pill -->
+<g filter="url(#shadowSmall)"><rect x="1080" y="750" width="418" height="76" rx="14" fill="#FFFFFF" fill-opacity=".90"/></g>
+<rect x="1100" y="771" width="5" height="34" rx="2.5" fill="#2563EB"/><text x="1122" y="784" class="small muted">当前课程</text><text x="1122" y="806" font-size="18" font-weight="650">语文 · 剩余 17 分钟</text>
+<text x="1468" y="791" font-size="13" fill="#2563EB" text-anchor="end">下一节 数学 09:00</text>
+<text x="1550" y="870" font-size="11" class="muted" text-anchor="end">EvoClass 桌面常驻界面 · 悬浮入口与快捷菜单</text>
+
+</svg>

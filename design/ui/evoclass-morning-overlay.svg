@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
+<defs>
+  <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="18" stdDeviation="30" flood-color="#0F172A" flood-opacity=".18"/></filter>
+  <filter id="shadowSmall" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="14" flood-color="#0F172A" flood-opacity=".16"/></filter>
+  <filter id="blur"><feGaussianBlur stdDeviation="42"/></filter>
+  <linearGradient id="wallpaper" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#DBEAFE"/><stop offset=".52" stop-color="#F8FAFC"/><stop offset="1" stop-color="#D1FAE5"/></linearGradient>
+  <linearGradient id="blueSoft" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#EFF6FF"/><stop offset="1" stop-color="#DBEAFE"/></linearGradient>
+  <style>
+    text { font-family: 'Segoe UI Variable','Microsoft YaHei UI','Segoe UI',sans-serif; fill: #172033; }
+    .muted { fill:#64748B; } .subtle { fill:#94A3B8; } .white { fill:#FFFFFF; }
+    .h1 { font-size:30px; font-weight:650; } .h2 { font-size:22px; font-weight:650; }
+    .body { font-size:15px; } .small { font-size:13px; } .label { font-size:12px; font-weight:600; letter-spacing:.7px; }
+    .mono { font-family:'Cascadia Mono','Microsoft YaHei UI',monospace; }
+  </style>
+  
+</defs>
+
+<rect width="1600" height="900" fill="url(#wallpaper)"/><g filter="url(#blur)" opacity=".45"><circle cx="190" cy="760" r="260" fill="#A7F3D0"/><circle cx="1400" cy="170" r="250" fill="#BFDBFE"/></g>
+<rect width="1600" height="900" fill="#0F172A" opacity=".16"/>
+<g filter="url(#shadow)"><rect x="224" y="116" width="1152" height="668" rx="22" fill="#FBFDFF" fill-opacity=".97"/></g>
+<rect x="224" y="116" width="1152" height="7" rx="3.5" fill="#2563EB"/>
+<text x="278" y="177" class="label" fill="#2563EB">GOOD MORNING · 晨间信息</text><text x="278" y="229" font-size="32" font-weight="670">早上好，七年级 2 班</text>
+<text x="278" y="261" class="body muted">2026年8月9日 星期日 · 第 3 教学周 · 轮换第 1 周</text>
+<circle cx="1318" cy="168" r="20" fill="#F1F5F9"/><g transform="translate(1307,157) scale(0.9166666666666666)" fill="none" stroke="#64748B" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:#64748B"><path d="M5 5l14 14M19 5 5 19"/></g>
+<line x1="278" y1="292" x2="1322" y2="292" stroke="#E2E8F0"/>
+
+<text x="278" y="337" class="h2">今日岗位</text>
+<rect x="278" y="364" width="456" height="84" rx="9" fill="#ECFDF5"/><circle cx="314" cy="406" r="18" fill="#0D9488" opacity=".12"/><g transform="translate(302,394) scale(1.0)" fill="none" stroke="#0D9488" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:#0D9488"><path d="M6 4h12v17H6zM9 4V2h6v2M9 9h6M9 13h6M9 17h4"/></g>
+<text x="348" y="397" class="small muted">值日</text><text x="348" y="425" font-size="19" font-weight="650">陈一诺、周嘉言</text>
+<rect x="278" y="464" width="456" height="84" rx="9" fill="#FFFBEB"/><circle cx="314" cy="506" r="18" fill="#D97706" opacity=".12"/><g transform="translate(302,494) scale(1.0)" fill="none" stroke="#D97706" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:#D97706"><rect x="3" y="4" width="18" height="14" rx="2"/><path d="M8 22h8M12 18v4M7 9h10M7 13h6"/></g>
+<text x="348" y="497" class="small muted">擦黑板</text><text x="348" y="525" font-size="19" font-weight="650">林语桐</text>
+<rect x="278" y="564" width="456" height="84" rx="9" fill="#F5F3FF"/><circle cx="314" cy="606" r="18" fill="#7C3AED" opacity=".12"/><g transform="translate(302,594) scale(1.0)" fill="none" stroke="#7C3AED" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:#7C3AED"><circle cx="9" cy="8" r="3"/><path d="M3.5 20c.7-4 2.4-6 5.5-6s4.8 2 5.5 6M16 5.5a3 3 0 0 1 0 5.8M16 14c2.7.2 4.2 2.1 4.7 5"/></g>
+<text x="348" y="597" class="small muted">讲台整理</text><text x="348" y="625" font-size="19" font-weight="650">第 3 小组</text>
+
+<line x1="780" y1="326" x2="780" y2="660" stroke="#E2E8F0"/>
+<text x="830" y="337" class="h2">今日课表</text><text x="830" y="390" class="small muted">08:00</text><rect x="886" y="372" width="4" height="26" rx="2" fill="#2563EB"/><text x="905" y="390" font-size="16" font-weight="600">语文</text><line x1="830" y1="408" x2="1132" y2="408" stroke="#E8EDF2"/><text x="830" y="442" class="small muted">09:00</text><rect x="886" y="424" width="4" height="26" rx="2" fill="#0D9488"/><text x="905" y="442" font-size="16" font-weight="600">数学</text><line x1="830" y1="460" x2="1132" y2="460" stroke="#E8EDF2"/><text x="830" y="494" class="small muted">10:10</text><rect x="886" y="476" width="4" height="26" rx="2" fill="#7C3AED"/><text x="905" y="494" font-size="16" font-weight="600">英语</text><line x1="830" y1="512" x2="1132" y2="512" stroke="#E8EDF2"/><text x="830" y="546" class="small muted">11:10</text><rect x="886" y="528" width="4" height="26" rx="2" fill="#D97706"/><text x="905" y="546" font-size="16" font-weight="600">物理</text><line x1="830" y1="564" x2="1132" y2="564" stroke="#E8EDF2"/><text x="830" y="598" class="small muted">14:00</text><rect x="886" y="580" width="4" height="26" rx="2" fill="#E11D48"/><text x="905" y="598" font-size="16" font-weight="600">班会</text>
+<rect x="830" y="616" width="302" height="44" rx="8" fill="#EFF6FF"/><text x="850" y="643" class="small" fill="#1D4ED8">第一节 08:00 开始 · 语文</text>
+<line x1="278" y1="690" x2="1322" y2="690" stroke="#E2E8F0"/>
+<circle cx="288" cy="732" r="4" fill="#2563EB"/><text x="304" y="737" class="small muted">今日无临时换课</text><text x="1318" y="737" class="small muted" text-anchor="end">将在 18 秒后自动收起 · 鼠标移入暂停</text>
+<rect x="278" y="756" width="1040" height="4" rx="2" fill="#E2E8F0"/><rect x="278" y="756" width="612" height="4" rx="2" fill="#2563EB"/>
+<text x="1550" y="870" font-size="11" fill="#E2E8F0" text-anchor="end">EvoClass 中央展示层 · 晨间信息</text>
+
+</svg>

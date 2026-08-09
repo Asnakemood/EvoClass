@@ -1,0 +1,71 @@
+# Build results
+[Bb]in/
+[Oo]bj/
+[Aa]rtifacts/
+[Ll]og/
+[Ll]ogs/
+
+# Visual Studio / Rider / VS Code
+.vs/
+.idea/
+.vscode/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.DotSettings.user
+
+# .NET tooling and test output
+TestResults/
+coverage/
+coverage*.xml
+*.coverage
+*.coveragexml
+BenchmarkDotNet.Artifacts/
+.cr/
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+!**/packages/build/
+
+# Publish and installer output
+publish/
+dist/
+installer/output/
+*.msix
+*.msixbundle
+*.appx
+*.appxbundle
+
+# Local app data, databases, backups and exports
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+backups/
+exports/
+local-data/
+
+# Secrets and signing material
+.env
+.env.*
+!.env.example
+*.pfx
+*.p12
+*.cer
+*.key
+*.snk
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python helper tooling
+__pycache__/
+*.py[cod]
+.venv/
+venv/
